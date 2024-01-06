@@ -6,6 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0% 10%;
 }
 
 nav>ul {
@@ -47,4 +48,21 @@ nav a {
     font-style: normal;
     font-weight: 700;
     padding: 18px 35px;
+}
+
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+    /* background-color: blueviolet; */
+}
+
+.banner{
+    background-color: #FFF8F3;
+    padding: 30px 30px 30px 10%;
+    display: flex;
+    align-items: center;
+}
+
+.banner .pro_pic{
+    width: 500px;
 }
